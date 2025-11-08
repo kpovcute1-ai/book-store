@@ -3,7 +3,7 @@ services:
     # build:
     #   context: .
     #   dockerfile: Dockerfile
-    image: konpovmak/book-store:1.0.3
+    image: konpovmak/book-store:1.0.0
     container_name: laravel_app
     restart: unless-stopped
     working_dir: /var/www/html
