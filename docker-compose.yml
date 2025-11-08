@@ -3,7 +3,7 @@ services:
     # build:
     #   context: .
     #   dockerfile: Dockerfile
-    image: konpovmak/book-store:1.0.0
+    image: konpovmak/book-store:1.0.3
     container_name: laravel_app
     restart: unless-stopped
     working_dir: /var/www/html
@@ -42,7 +42,7 @@ services:
       MYSQL_USER: laravel
       MYSQL_PASSWORD: laravel
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - db_data:/var/lib/mysql
     networks:
