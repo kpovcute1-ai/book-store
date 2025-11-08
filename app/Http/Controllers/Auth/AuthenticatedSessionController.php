@@ -28,7 +28,8 @@ class AuthenticatedSessionController extends Controller
 
         $httpRequest->session()->regenerate();
 
-        return redirect()->intended(route('admin', absolute: false));
+        // Redirect to the admin path directly instead of using a named route that may not exist.
+        return redirect()->intended('dashboard');
     }
 
     /**
