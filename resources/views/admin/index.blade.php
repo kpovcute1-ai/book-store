@@ -44,7 +44,7 @@
                             <i class="fas fa-phone"></i>
                         </div>
                         <div class="stats-data">
-                            <div class="stats-number"></div>
+                            <div class="stats-number">4</div>
                         </div>
                     </div>
                 </div>
